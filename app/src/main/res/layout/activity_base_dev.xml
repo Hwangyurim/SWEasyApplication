@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="view_model"
+            type="me.blog.korn123.easydiary.viewmodels.BaseDevViewModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.appbar.AppBarLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <ScrollView
+            app:layout_constraintTop_toBottomOf="@+id/app_bar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/main_holder"
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:padding="@dimen/component_margin_small"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:orientation="vertical"
+                    style="@style/AppCard.Settings">
+                    <LinearLayout
+                        style="@style/LinearLayoutVertical">
+                        <com.simplemobiletools.commons.views.MyTextView
+                            android:text="Action Log"
+                            style="@style/SettingsTitle" />
+                        <com.simplemobiletools.commons.views.MyTextView
+                            android:id="@+id/clearLog"
+                            android:gravity="end"
+                            android:text="Clear log"
+                            style="@style/SettingsTitle" />
+                        <androidx.core.widget.NestedScrollView
+                            android:fillViewport="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp">
+                            <com.simplemobiletools.commons.views.MyTextView
+                                android:id="@+id/actionLog"
+                                android:layout_height="wrap_content"
+                                style="@style/SettingsSummary" />
+                        </androidx.core.widget.NestedScrollView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:onClick="@{() -> view_model.plus()}"
+                    style="@style/AppCard.Settings">
+                    <LinearLayout
+                        style="@style/LinearLayoutVertical">
+                        <com.simplemobiletools.commons.views.MyTextView
+                            android:text="Live Data"
+                            style="@style/SettingsTitle" />
+                        <ImageView
+                            app:symbolSequence="@{view_model.symbol}"
+                            android:layout_width="@dimen/diary_symbol_width"
+                            android:layout_height="@dimen/diary_symbol_height" />
+                        <com.simplemobiletools.commons.views.MyTextView
+                            android:text="@{Long.toString(view_model.symbol)}"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:orientation="vertical"
+                    style="@style/AppCard.Settings">
+                    <com.google.android.flexbox.FlexboxLayout
+                        app:flexDirection="row"
+                        app:flexWrap="wrap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_execute_full_backup_service"
+                            android:text="Full-Backup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_clear_unused_photo"
+                            android:text="Clear-Unused-Photo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_notification_01"
+                            android:text="Notification-01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_notification_02"
+                            android:text="Notification-02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_notification_03"
+                            android:text="Notification-03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_review_flow"
+                            android:text="ReviewFlow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_reset_showcase"
+                            android:text="Reset Showcase"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_fingerprint"
+                            android:text="Fingerprint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_biometric"
+                            android:text="Biometric"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_easy_diary_launcher"
+                            android:text="EasyDiary Launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_dark_launcher"
+                            android:text="Dark Launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_green_launcher"
+                            android:text="Green Launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_debug_launcher"
+                            android:text="Debug Launcher"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            app:layout_flexGrow="1"
+                            android:id="@+id/button_reset_font_size"
+                            android:text="Reset Font Size"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                    </com.google.android.flexbox.FlexboxLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:orientation="vertical"
+                    style="@style/AppCard.Settings">
+                    <LinearLayout
+                        android:id="@+id/linear_coroutine1"
+                        style="@style/LinearLayoutVertical">
+                        <com.simplemobiletools.commons.views.MyTextView
+                            android:text="Coroutine"
+                            style="@style/SettingsTitle" />
+                        <com.google.android.flexbox.FlexboxLayout
+                            app:flexWrap="wrap"
+                            app:flexDirection="row"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <Button
+                                app:layout_flexGrow="1"
+                                android:id="@+id/button_coroutine_basic_start"
+                                android:text="[T1] Start"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                app:layout_flexGrow="1"
+                                android:id="@+id/button_coroutine_basic_stop"
+                                android:text="[T1] Stop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                app:layout_flexGrow="1"
+                                android:id="@+id/button_coroutine_basic_status"
+                                android:text="[T1] Job Status"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                app:layout_flexGrow="1"
+                                android:id="@+id/button_coroutine_multiple"
+                                android:text="[T2] Multiple"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                app:layout_flexGrow="1"
+                                android:id="@+id/button_run_blocking"
+                                android:text="[T3] runBlocking"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                app:layout_flexGrow="1"
+                                android:id="@+id/button_coroutine_scope"
+                                android:text="[T4] CoroutineScope"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </com.google.android.flexbox.FlexboxLayout>
+
+                        <androidx.core.widget.NestedScrollView
+                            android:id="@+id/scroll_coroutine"
+                            android:fillViewport="true"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp">
+                            <com.simplemobiletools.commons.views.MyTextView
+                                android:id="@+id/text_coroutine1_console"
+                                style="@style/SettingsSummary" />
+                        </androidx.core.widget.NestedScrollView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:orientation="vertical"
+                    style="@style/AppCard.Settings">
+                    <LinearLayout
+                        style="@style/LinearLayoutVertical">
+                        <com.simplemobiletools.commons.views.MyTextView
+                            android:text="Location Manager"
+                            style="@style/SettingsTitle" />
+                        <com.google.android.flexbox.FlexboxLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <Button
+                                android:id="@+id/button_request_lastLocation"
+                                android:text="Last-Location"
+                                app:layout_flexGrow="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                android:id="@+id/button_update_gps_provider"
+                                android:text="Update-GPS"
+                                app:layout_flexGrow="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                            <Button
+                                android:id="@+id/button_update_network_provider"
+                                android:text="Update-Network"
+                                app:layout_flexGrow="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                        </com.google.android.flexbox.FlexboxLayout>
+                        <com.simplemobiletools.commons.views.MyTextView
+                            android:layout_below="@+id/locationToolbar"
+                            android:id="@+id/text_location_console"
+                            style="@style/SettingsSummary" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

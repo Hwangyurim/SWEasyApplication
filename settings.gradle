@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "EasyApplication"
+include ':app'
+include ':app:androidTest:foss'
+include ':foss'
+include ':app:foss'
+include ':app:src:foss'
+include ':app:src'
+include ':app:myapplication'
+include ':app:src:myapplication'
+include ':app:src:foss'
+include ':app:foss'
+include ':app:lib'
+project(':gms').projectDir = new File(rootDir, 'app/src/')
+include ':gms'
+include ':gms'
+include ':mylibrary'

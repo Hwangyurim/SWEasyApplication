@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_base_dev.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_base_diary_editing.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_base_settings.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_calendar.xml" value="0.18974358974358974" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_customization.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_diary_main.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_diary_reading.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_diary_reminder.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_fingerprint_lock.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_google_drive.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_intro.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_markdown_viewer.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_photo_view_pager.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_pin_lock.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_postcard.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_postcard_viewer.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_statistics.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_symbol_filter_picker.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/activity_timeline.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_alarm.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_dday.xml" value="0.18974358974358974" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_delete_realm_files.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_export_progress_excel.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_feeling.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_feeling_pager.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_fonts.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_highlight_keyword.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_line_color_picker.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_message.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_option_item.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_postcard_photo_option.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_realm_files.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_seconds_picker.xml" value="0.18974358974358974" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/dialog_simple.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_custom_cell.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_daily_symbol.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_dashboard_rank.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_dday.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_diary_read.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_photo_highlight.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_app_info.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_backup_gms.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_backup_local.xml" value="0.1601775956284153" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_basic.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_font.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_lock.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_progress.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_settings_schedule.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_stock_line_chart.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_symbol_horizontal_barchart.xml" value="0.18974358974358974" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_weight_line_chart.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/fragment_writing_barchart.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_alarm.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_cheat_sheet.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_check_label.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_daily_symbol.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_dday.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_dday_add.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_diary_calendar.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_diary_main.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_history.xml" value="0.1601775956284153" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_photo.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_post_card.xml" value="0.18974358974358974" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_realm_file.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_second.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_simple_checkbox.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_spinner.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_symbol_filter.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_timeline.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_weather.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/item_weekday.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_alarm_day.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_bottom_toolbar.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_calendar_view.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_content_post_card_viewer.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_custom_marker_view.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_daily_symbol.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_daily_symbol_s.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_edit_contents.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_edit_photo_container.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_edit_toolbar_sub.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_notification.xml" value="0.1601775956284153" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_preference_category.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/partial_timeline_filter.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/popup_encryption.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/popup_location_selector.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/popup_menu_main.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/popup_menu_read.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/widget_diary_main.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/layout/widget_item_diary_main.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/xml/provider_paths.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/USER/AndroidStudioProjects/EasyApplication/app/src/main/res/xml/simple_app_widget_info.xml" value="0.23385416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

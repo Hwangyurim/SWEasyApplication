@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <me.blog.korn123.easydiary.views.FixedCardView
+        android:id="@+id/container"
+        style="@style/card_dashboard_inner"
+        android:layout_width="match_parent"
+        app:contentPadding="@dimen/dashboard_card_padding">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.blog.korn123.easydiary.views.FixedTextView
+                android:id="@+id/text_title"
+                android:padding="@dimen/diary_card_text_padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/basic_text_medium"
+                app:applyGlobalColor="true"
+                app:applyGlobalSize="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="12345678901234567890sdf123" />
+
+            <me.blog.korn123.easydiary.views.FixedTextView
+                android:id="@+id/text_target_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/basic_text_medium"
+                app:applyGlobalColor="true"
+                app:applyGlobalSize="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_title"
+                tools:text="2022.03.03" />
+
+            <me.blog.korn123.easydiary.views.FixedTextView
+                android:id="@+id/text_target_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/basic_text_medium"
+                app:applyGlobalColor="true"
+                app:applyGlobalSize="false"
+                app:layout_constraintEnd_toEndOf="@+id/text_target_date"
+                app:layout_constraintTop_toBottomOf="@+id/text_target_date"
+                tools:text="2022.03.03" />
+
+            <me.blog.korn123.easydiary.views.FixedTextView
+                android:id="@+id/text_day_remaining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/basic_text_medium"
+                app:applyBoldStyle="true"
+                app:applyGlobalColor="true"
+                app:applyGlobalSize="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_target_time"
+                tools:text="＋100" />
+
+            <me.blog.korn123.easydiary.views.FixedTextView
+                android:id="@+id/text_day_remaining_with_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/basic_text_small"
+                app:applyGlobalColor="true"
+                app:applyGlobalSize="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_day_remaining"
+                tools:text="（1Year 32Days）" />
+
+            <me.blog.korn123.easydiary.views.FixedTextView
+                android:id="@+id/text_time_remaining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/basic_text_medium"
+                app:applyGlobalColor="true"
+                app:applyGlobalSize="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_day_remaining_with_year"
+                tools:text="8Hours" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </me.blog.korn123.easydiary.views.FixedCardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
